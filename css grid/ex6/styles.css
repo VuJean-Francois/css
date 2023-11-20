@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+}
+.box{
+    flex: 10 1 30%;
+    height: 150px;
+    background-color: brown;
+    margin: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+}
+.highlight:hover{
+    color: green;
+    opacity: 0.5;
+}
+
+.box{
+    
+    margin: 50%;
+    margin-top: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    background-color: red;
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px #888888;
+}
+/*.box {
+    outline: 2px solid rgb(5, 5, 5);
+    border: 115px solid rgb(251, 3, 3);
+    opacity: 0.5;
+}/*

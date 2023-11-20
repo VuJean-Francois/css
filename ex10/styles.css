@@ -1,0 +1,7 @@
+.fle{
+    width: 300px;
+    border: 20px solid brown;
+    box-sizing: content-box;
+    margin: auto;
+    margin-top: 50%;
+}

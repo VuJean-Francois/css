@@ -1,0 +1,10 @@
+ul{
+    color: red;
+    list-style-type: none;
+}
+.item:nth-child(even){
+    font-weight: bold;
+}
+.item{
+    border: 1px solid;
+}

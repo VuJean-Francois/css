@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('/img/fond.jpg') ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+.button:hover {
+    background-color: magenta;
+    transition: background-color 03s ease;
+    cursor: pointer;
+}
+.button::hover {
+    content: "/2022";
+    margin-right: 15px;
+}
+.box:hover{
+    color: aqua;
+    transform: rotate(90deg);
+}
+.box {
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: chocolate;
+    
+    transition: transform 0.5s ease;
+    
+    animation: moveleft 4s ease infinite alternate;
+    transform: rotate(0deg);
+}
+
+.triangle{
+    margin: auto;
+    
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid rgb(94, 94, 145);
+    clip-path: polygon(50% 0%,0% 100%,100% 100%);
+    
+}
+
+.triangle:hover{
+    transform: rotate(360deg);
+    transition: 1s ease;
+}
+.square {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-style: solid;
+    background-color: rgb(187, 147, 187);
+    
+}
+.square:hover{
+    transform: rotate(360deg);
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    transition: 1s ease;
+}
+@keyframes moveleft{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100px);
+    }
+}
+@keyframes moveBottom {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(400);
+    }
+}
+.container{
+    background-color: rgb(173, 133, 211);
+}
+.texte{
+    
+    margin: 25px;
+    padding: 50px;
+    border: 4px solid black;
+    color: crimson;
+    font-size: 2em;
+    font-family: 'Ingrid Darling', cursive;
+    font-weight: bold;
+    background-color: rgb(206, 180, 180);
+
+}
+
+h1,h2,h3{
+    background-color: rgb(243, 205, 205);
+    color: blueviolet /*!important*/;
+}
+.titre{
+    font-size: 25px;
+    color:rgb(65, 2, 2);
+}
+#titre3{
+    color: darkcyan;
+}
+.moche{
+    margin:0 auto;
+    width: 80%;
+    min-height: 200px;
+    background-image: url('/img/bleach.jpg');
+    background-size: cover;
+    background-position-y: 15%;
+}
+.moche:hover{
+    
+}
+@media(max-width:720px){
+    body{
+        background-color: aqua;
+
+    }
+    .box{
+        display: none;
+    }
+}

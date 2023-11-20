@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+header{
+    grid-area: header / span 2;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+.grid-item{
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin:  10px;
+
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer / span 2;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}

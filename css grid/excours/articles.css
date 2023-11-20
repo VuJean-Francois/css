@@ -1,0 +1,32 @@
+main{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.articles{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 20px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+article{
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(165, 33, 33);
+    text-align: center;
+    
+}
+article img{
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+article img:hover{
+    opacity: 0.5;
+    z-index: 1;
+    
+}

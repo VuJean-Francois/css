@@ -1,0 +1,11 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-item{
+    height: 100px;
+    margin: 10px;
+    border: 50px solid brown;
+    
+}
+.flex-item::

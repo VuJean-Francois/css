@@ -1,0 +1,29 @@
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+label{
+    margin-bottom: 5px;
+}
+input,textarea, button{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(165,33,33);
+    width: 100%;
+}
+button{
+    background-color: lightgray;
+    color: rgb(165,33,33);
+    border: none;
+    cursor: progress;
+    font-weight: bold;
+    font-size:large;
+}
+.form-group:last-child{
+    align-self: center;
+}
